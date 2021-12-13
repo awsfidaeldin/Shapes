@@ -1,0 +1,23 @@
+import turtle
+turtle.setup(640,480)
+turtle.pencolor("blue")
+turtle.hideturtle()
+turtle.speed(1)
+# turtle.penup()
+# turtle.goto(-220,220)
+# turtle.write("TOP LEFT CORNER")
+# turtle.goto(120,-220)
+# turtle.write("BUTTOM RIGHT CORNER")
+
+# turtle.goto(0,0)
+# turtle.fillcolor("red")
+# turtle.begin_fill()
+# turtle.circle(80)
+# turtle.end_fill()
+
+turtle.fillcolor("red")
+turtle.begin_fill() 
+turtle.goto(120,120)
+turtle.goto(200,-100)
+turtle.end_fill() 
+turtle.done()
